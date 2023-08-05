@@ -1,0 +1,81 @@
+.errorCont {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  background-color: aliceblue;
+  position: fixed;
+  top: 30vh;
+  left: 40%;
+  border: 5px solid blueviolet;
+  z-index: 100;
+  overflow: hidden;
+  align-items: center;
+  gap: 2px;
+  /* visibility: hidden; */
+
+}
+
+.backdrop{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.75);
+    /* border: 2px solid red; */
+
+}
+
+
+
+
+
+
+
+header {
+  background-color: brown;
+  width: 100%;
+  /* margin: auto; */
+  height: 30px;
+  color: yellow;
+  /* border: 2px solid greenyellow; */
+}
+
+h3 {
+  width: 60%;
+  margin: auto;
+}
+
+#descript {
+  position: absolute;
+  width: 90%;
+  height: 100px;
+  /* border: 2px solid red; */
+  padding: 2px;
+  margin-top: 40px;
+}
+
+p {
+  /* border: 2px solid palevioletred; */
+  height: 75px;
+  width: 275px;
+  margin-top: 10px;
+}
+
+#descript button {
+  background-color: blueviolet;
+  border: 2px solid rgba(177, 123, 230, 0.779);
+  height: 30px;
+  width: 60px;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-left: 100px;
+  color: yellow;
+}
+
+#descript button:hover {
+  background-color: rgb(67, 12, 118);
+  cursor: pointer;
+}

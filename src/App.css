@@ -1,0 +1,13 @@
+* {
+margin: 0%;
+padding:0%;
+/* border: 2px solid red; */
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Baloo+Bhaijaan+2:wght@400;600&display=swap');
+
+body{
+  background-color: black;
+}

@@ -1,0 +1,11 @@
+.Card{
+    background: white;
+    box-shadow: 0px 2px 8px rgba(0,0, 0, 0.26);
+    border-radius: 10px;
+    width: 500px;
+    height: fit-content;
+    margin:  25px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
